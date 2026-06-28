@@ -18,6 +18,7 @@
 #include <string.h>
 
 #include "linked.h"
+#include <cstdint>
 
 extern char const *spec_types[];
 

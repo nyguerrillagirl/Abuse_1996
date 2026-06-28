@@ -18,7 +18,11 @@ spec_directory_cache sd_cache;
 
 void spec_directory_cache::load(bFILE *fp)
 {
-  short tfn=fp->read_uint16();
+  //short tfn=fp->read_uint16();
+  uint8_t b1 = fp->read_uint8();
+  uint8_t b2 = fp->read_uint8();
+  short tfn = (b1 << 8) | b2;
+  
   int i;
   unsigned char len;
   char fn[256];

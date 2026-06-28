@@ -89,17 +89,21 @@ target_link_libraries(abuse imlib)
 target_link_libraries(abuse net)
 target_link_libraries(abuse ${SDL2_LIBRARY})
 target_link_libraries(abuse ${SDL2_MIXER_LIBRARIES})
-if(OPENGL_FOUND)
+target_link_libraries(abuse ${GLEW_LIBRARY})
+
+find_package(OpenGL REQUIRED)
+
+#if(OPENGL_FOUND)
     target_link_libraries(abuse ${OPENGL_LIBRARIES})
-endif(OPENGL_FOUND)
+#endif(OPENGL_FOUND)
 
-add_executable(abuse-tool
-	tool/abuse-tool.cpp
-	crc.cpp crc.h
-	tool/AR_SPEC.cpp tool/AR_SPEC.h
-	tool/AR_Help.cpp tool/AR_Help.h)
+# add_executable(abuse-tool
+#	tool/abuse-tool.cpp
+#	crc.cpp crc.h
+#	tool/AR_SPEC.cpp tool/AR_SPEC.h
+#	tool/AR_Help.cpp tool/AR_Help.h)
 
-target_link_libraries(abuse-tool imlib)
+# target_link_libraries(abuse-tool imlib)
 
 include_directories(
     ${abuse_SOURCE_DIR}/src
@@ -111,9 +115,9 @@ include_directories(
 )
 if(WIN32)
     # Under Windows, throw them into the root
-    install(TARGETS abuse abuse-tool
-        RUNTIME DESTINATION "."
-        LIBRARY DESTINATION ".")
+    # install(TARGETS abuse abuse-tool
+    #    RUNTIME DESTINATION "."
+    #    LIBRARY DESTINATION ".")
     # We also need to include the SDL DLLs or nothing will work
     string(FIND "${SDL2_LIBRARY}" ";" INDEX)
     if (${INDEX} GREATER -1)

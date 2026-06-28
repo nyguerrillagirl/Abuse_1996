@@ -27,10 +27,10 @@
 #ifdef WIN32
 #include <windows.h>
 #endif
-#include "Glee.h"
+#include <GL/glew.h>
 //Abuse linker->input:
 //	- opengl32.lib
-//	- GLee.lib
+//	- GLee.lib (GLee no longer needed, GLEW is used instead)
 //
 
 #include "SDL.h"
@@ -115,7 +115,7 @@ void set_mode(int argc, char **argv)
 
 	//AR OpenGL
 	glcontext = SDL_GL_CreateContext(window);
-
+	glewInit();
 	if(settings.vsync) SDL_GL_SetSwapInterval(1);
 
 	glPushAttrib(GL_ENABLE_BIT);

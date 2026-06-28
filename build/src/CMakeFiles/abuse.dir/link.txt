@@ -1,0 +1,3 @@
+C:\CodeBlocks\MinGW\bin\cmake.exe -E rm -f CMakeFiles\abuse.dir/objects.a
+C:\CodeBlocks\MinGW\bin\ar.exe qc CMakeFiles\abuse.dir/objects.a @CMakeFiles\abuse.dir\objects1.rsp
+C:\CodeBlocks\MinGW\bin\c++.exe -IC:/libs/glew/include -IC:/libs/sdl/include -Wl,--whole-archive CMakeFiles\abuse.dir/objects.a -Wl,--no-whole-archive -o abuse.exe -Wl,--out-implib,libabuse.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\abuse.dir\linkLibs.rsp

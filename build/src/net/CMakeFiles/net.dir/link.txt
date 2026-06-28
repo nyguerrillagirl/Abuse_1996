@@ -1,0 +1,2 @@
+C:\CodeBlocks\MinGW\bin\ar.exe qc libnet.a CMakeFiles/net.dir/gserver.cpp.obj CMakeFiles/net.dir/gclient.cpp.obj CMakeFiles/net.dir/fileman.cpp.obj CMakeFiles/net.dir/sock.cpp.obj CMakeFiles/net.dir/tcpip.cpp.obj
+C:\CodeBlocks\MinGW\bin\ranlib.exe libnet.a

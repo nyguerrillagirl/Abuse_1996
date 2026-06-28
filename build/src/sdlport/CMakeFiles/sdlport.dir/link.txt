@@ -1,0 +1,2 @@
+C:\CodeBlocks\MinGW\bin\ar.exe qc libsdlport.a CMakeFiles/sdlport.dir/video.cpp.obj CMakeFiles/sdlport.dir/event.cpp.obj CMakeFiles/sdlport.dir/sound.cpp.obj CMakeFiles/sdlport.dir/timing.cpp.obj CMakeFiles/sdlport.dir/jdir.cpp.obj CMakeFiles/sdlport.dir/joystick.cpp.obj CMakeFiles/sdlport.dir/setup.cpp.obj CMakeFiles/sdlport.dir/hmi.cpp.obj CMakeFiles/sdlport.dir/errorui.cpp.obj
+C:\CodeBlocks\MinGW\bin\ranlib.exe libsdlport.a

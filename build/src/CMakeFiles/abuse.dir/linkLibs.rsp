@@ -1,0 +1,1 @@
+ lisp/liblisp.a sdlport/libsdlport.a imlib/libimlib.a net/libnet.a C:/libs/sdl/lib/libSDL2.dll.a C:/libs/sdl/lib/libSDL2_mixer.dll.a C:/libs/glew/lib/libglew32.dll.a -lopengl32 -lglu32 -lws2_32 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

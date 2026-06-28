@@ -1,0 +1,2 @@
+C:\CodeBlocks\MinGW\bin\ar.exe qc liblisp.a CMakeFiles/lisp.dir/lisp.cpp.obj CMakeFiles/lisp.dir/lisp_opt.cpp.obj CMakeFiles/lisp.dir/lisp_gc.cpp.obj CMakeFiles/lisp.dir/trig.cpp.obj
+C:\CodeBlocks\MinGW\bin\ranlib.exe liblisp.a

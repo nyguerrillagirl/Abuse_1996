@@ -1,0 +1,46 @@
+src/lisp/CMakeFiles/lisp.dir/lisp_opt.cpp.obj: \
+ C:\1000-days-of-code-repos\1000doc-dos-games\Abuse_1996\src\lisp\lisp_opt.cpp \
+ C:/1000-days-of-code-repos/1000doc-dos-games/Abuse_1996/build/config.h \
+ C:\1000-days-of-code-repos\1000doc-dos-games\Abuse_1996\src\lisp\lisp.h \
+ C:/CodeBlocks/MinGW/include/c++/14.2.0/cstdlib \
+ C:/CodeBlocks/MinGW/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h \
+ C:/CodeBlocks/MinGW/include/c++/14.2.0/x86_64-w64-mingw32/bits/os_defines.h \
+ C:/CodeBlocks/MinGW/include/c++/14.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
+ C:/CodeBlocks/MinGW/include/c++/14.2.0/pstl/pstl_config.h \
+ C:/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stdlib.h \
+ C:/CodeBlocks/MinGW/x86_64-w64-mingw32/include/corecrt.h \
+ C:/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw.h \
+ C:/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_mac.h \
+ C:/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_secapi.h \
+ C:/CodeBlocks/MinGW/x86_64-w64-mingw32/include/vadefs.h \
+ C:/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+ C:/CodeBlocks/MinGW/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+ C:/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h \
+ C:/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h \
+ C:/CodeBlocks/MinGW/x86_64-w64-mingw32/include/limits.h \
+ C:/CodeBlocks/MinGW/x86_64-w64-mingw32/include/crtdefs.h \
+ C:/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+ C:/CodeBlocks/MinGW/include/c++/14.2.0/stdlib.h \
+ C:/CodeBlocks/MinGW/x86_64-w64-mingw32/include/malloc.h \
+ C:/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm_malloc.h \
+ C:/CodeBlocks/MinGW/x86_64-w64-mingw32/include/errno.h \
+ C:/CodeBlocks/MinGW/include/c++/14.2.0/bits/std_abs.h \
+ C:/libs/sdl/include/SDL_config.h C:/libs/sdl/include/SDL_platform.h \
+ C:/libs/sdl/include/begin_code.h C:/libs/sdl/include/close_code.h \
+ C:/libs/sdl/include/SDL_config_windows.h \
+ C:/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winsdkver.h \
+ C:/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winapifamily.h \
+ C:/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sdkddkver.h \
+ C:/CodeBlocks/MinGW/include/c++/14.2.0/cstdint \
+ C:/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h \
+ C:/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stdint.h \
+ C:/CodeBlocks/MinGW/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h \
+ C:/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stddef.h \
+ C:\1000-days-of-code-repos\1000doc-dos-games\Abuse_1996\src\lisp\lisp_opt.h \
+ C:\1000-days-of-code-repos\1000doc-dos-games\Abuse_1996\src\lisp\lisp_gc.h \
+ C:\1000-days-of-code-repos\1000doc-dos-games\Abuse_1996\src\lisp\stack.h \
+ C:/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stdio.h \
+ C:/CodeBlocks/MinGW/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+ C:/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_mingw_off_t.h \
+ C:/CodeBlocks/MinGW/x86_64-w64-mingw32/include/swprintf.inl \
+ C:/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/stdio_s.h

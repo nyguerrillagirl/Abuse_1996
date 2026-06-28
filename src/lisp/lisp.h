@@ -14,9 +14,13 @@
 #include <cstdlib>
 #include <SDL_config.h>//AR (#include <SDL_config.h>)
 
+#include <cstdint>
+
 #ifdef L_PROFILE
 #include "timing.h"
 #endif
+
+
 
 #define Cell void
 #define MAX_LISP_TOKEN_LEN 200
